@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: skyblue;
+}
+
+.wrapper {
+    background-color: white;
+    width: 370px;
+    border-radius: 7px;
+    padding: 25px 30px;
+}
+
+.wrapper header {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.wrapper form {
+    margin: 35px 0 20px;
+}
+
+form .row {
+    display: flex;
+    flex-direction: column;
+
+}
+
+form .row label {
+    font-size: 20px;
+    margin-bottom: 3px;
+
+}
+
+form :where(textarea, select, button) {
+    outline: none;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+
+}
+
+form .row textarea {
+    border: 1px solid #999;
+    resize: none;
+    height: 110px;
+    font-size: 15px;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+
+}
+
+form .row .outer {
+    height: 47px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    align-items: center;
+    padding: 0 10px;
+    display: flex;
+}
+
+form .row select {
+    font-size: 14px;
+
+}
+
+form button {
+    height: 53px;
+    margin: 15px 10px 0 0;
+    background: skyblue;
+    color: black;
+    font-size: 17px;
+    cursor: pointer;
+
+
+}
